@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/accentColor</item>
+        <item name="colorPrimaryDark">@color/darkAccentColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="fontPath">@string/default_font</item>
+        <item name="colorControlNormal">@color/systemWhiteColor</item>
+    </style>
+
+
+    <style name="TextAppearance.Semibold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/OpenSans-Semibold.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Regular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/OpenSans-Regular.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Light" parent="android:TextAppearance">
+        <item name="fontPath">fonts/OpenSans-Light.ttf</item>
+    </style>
+
+</resources>

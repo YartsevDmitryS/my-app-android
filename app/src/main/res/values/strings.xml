@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="default_font">fonts/OpenSans-Light.ttf</string>
+    <string name="projectsRequest">https://hidden-earth-40926.herokuapp.com/main/index.json</string>
+    <string name="todosRequest">https://hidden-earth-40926.herokuapp.com/main/show_todo.json</string>
+    <string name="apiRequest">https://hidden-earth-40926.herokuapp.com/projects/</string>
+</resources>

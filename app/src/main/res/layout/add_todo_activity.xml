@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context="com.example.myappandroid.AddTodoActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:padding="8dp"
+        android:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Новая задача"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/systemWhiteColor"
+            android:textSize="22sp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/systemWhiteColor">
+        <TextView
+            fontPath="fonts/OpenSans-Semibold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Задача"
+            android:textAllCaps="true"
+            android:background="@drawable/border"
+            android:textColor="@color/systemBlackColor"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/new_todo_text"
+            android:background="@drawable/bg_edit_text"
+            android:layout_width="match_parent"
+            android:hint="Название задачи..."
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="20dp" />
+
+        <TextView
+            fontPath="fonts/OpenSans-Semibold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Категория"
+            android:background="@drawable/border"
+            android:textAllCaps="true"
+            android:textColor="@color/systemBlackColor"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/project_list"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@color/systemWhiteColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

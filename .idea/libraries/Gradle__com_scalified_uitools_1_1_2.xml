@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.scalified:uitools-1.1.2">
+    <CLASSES>
+      <root url="jar://C:/Users/Public/.gradle/caches/transforms-1/files-1.1/uitools-1.1.2.aar/8f3adc2bd5026d1586fa37a141b8fb32/jars/classes.jar!/" />
+      <root url="file://C:/Users/Public/.gradle/caches/transforms-1/files-1.1/uitools-1.1.2.aar/8f3adc2bd5026d1586fa37a141b8fb32/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/Users/Public/.gradle/caches/modules-2/files-2.1/com.scalified/uitools/1.1.2/e2abf0ca772c584b8e8326f1800bc75eb059907/uitools-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
